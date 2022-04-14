@@ -4,14 +4,15 @@
             <meta charset="UTF-8" >
             <link rel="stylesheet" href="./style.css">
             <title>Pokemon Quiz!</title>
+            
 
 
         </head>
         <body>
             <div class="scores"><a href="HallofFame.html">Hall of Fame</a></div>
-
+            
             <div class="timer">Time: <span id="time">0</span></div>
-
+            
             <div class="wrapper">
                 <div id="start-screen" class="start">
                     <h1>Ultimate Pokemon Quiz!!</h1>
@@ -19,25 +20,32 @@
                     <p>Lets test your Pokemon knowledge, this is only Gen 1. </p>
                     <button id="start">Start your journey!</button>
                 </div>
-
+                
                 <div id="questions" class="hide">
                     <h2 id="question-title"></h2>
                     <div id ="choices" class="choices"></div>
                 </div>
-
+                
                 <div id="results" class="hide">
                     <h2>All done!</h2>
                     <p>Your final score is <span id="total-score"></span>.</p>
                     <p>
-                      Your initials here: <input type="text" id="initials" max="3" />
-                      <button id="submit">Submit</button>
+                        Your initials here: <input type="text" id="initials" max="3" />
+                        <button id="submit">Submit</button>
                     </p>
-                  </div>
-            
-                  <div id="feedback" class="feedback hide"></div>
-
+                </div>
+                <div id="feedback" class="feedback hide"></div>
+                
             </div>
-
+            
+            <footer class="music">
+            <h1>Play me to set the mood!</h1>
+            <audio controls autoplay>
+                <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/ogg">
+                <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/mpeg">
+              
+              </audio>
+              </footer>
 
 
 
