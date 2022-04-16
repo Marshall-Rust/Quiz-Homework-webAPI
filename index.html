@@ -3,23 +3,38 @@
         <head>
             <meta charset="UTF-8" >
             <link rel="stylesheet" href="./style.css">
+            <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
             <title>Pokemon Quiz!</title>
             
-
-
+            
+            
         </head>
         <body>
-            <div class="scores"><a href="HallofFame.html">Hall of Fame</a></div>
+            <div class="hero-image">
+                <div class="timer">Time: <span id="time">0</span></div>
+                <div class="scores"><a href="HallofFame.html">Hall of Fame</a></div>
+                <div class="hero-text">
+                    <h1>Ultimate Pokemon Quiz!!</h1>
+                    <p>Lets test your Pokemon knowledge, this is only Gen 1.</p>
+                    <button id ="start">Start your journey!</button>
+                    <h1>Play me to set the mood!</h1>
+                    <audio controls autoplay>
+                        <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/ogg">
+                        <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/mpeg">
+                      
+                      </audio>
+                </div>
+              </div>
             
-            <div class="timer">Time: <span id="time">0</span></div>
-            
-            <div class="wrapper">
+
+            <!--changed my mind how i wanted the front page to look.-->
+            <!-- <div class="wrapper">
                 <div id="start-screen" class="start">
                     <h1>Ultimate Pokemon Quiz!!</h1>
                     <img src="./images/pokemon3.jpeg" alt="The 3 OG">
                     <p>Lets test your Pokemon knowledge, this is only Gen 1. </p>
                     <button id="start">Start your journey!</button>
-                </div>
+                </div> -->
                 
                 <div id="questions" class="hide">
                     <h2 id="question-title"></h2>
@@ -38,14 +53,8 @@
                 
             </div>
             
-            <footer class="music">
-            <h1>Play me to set the mood!</h1>
-            <audio controls autoplay>
-                <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/ogg">
-                <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/mpeg">
-              
-              </audio>
-              </footer>
+            <!-- <footer class="music">
+              </footer> -->
 
 
 
