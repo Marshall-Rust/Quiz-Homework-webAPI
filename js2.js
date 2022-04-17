@@ -3,7 +3,7 @@
 var questions = [
     {
       title: "1. What is the final evolution of Bulbasaur?",
-      choices: ["Muk", "Venusaur", "Pidgy", "Charizard?"],
+      choices: ["Muk", "Venusaur", "Pidgy", "Charizard"],
       answer: "Venusaur"
     },
     {
