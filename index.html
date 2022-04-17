@@ -12,100 +12,56 @@
         <body>
             <div class="hero-image">
                 <div class="timer">Time: <span id="time">0</span></div>
+                <div id="start-screen" class="start">
                 <div class="scores"><a href="HallofFame.html">Hall of Fame</a></div>
                 <div class="hero-text">
                     <h1>Ultimate Pokemon Quiz!!</h1>
-                    <p>Lets test your Pokemon knowledge, this is only Gen 1.</p>
-                    <button id ="start">Start your journey!</button>
-                    <h1>Play me to set the mood!</h1>
+                    <p>Lets test your Pokemon knowledge, this is only Gen 1 from Pokemon red/blue. 
+                    </p>
+                    <p>Warning!! Music is Loud!</p>
+                    <button id ="start" onmousedown="battleMusic.play()">Start your journey!</button>
+                    <!-- turned off this music for thr battle music.-->
+                    <!-- <h1>Play me to set the mood!</h1>
                     <audio controls autoplay>
                         <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/ogg">
                         <source src="./images/[MP3FY] Pokemon- Blue and Red- Victory Road- Music.mp3" type="audio/mpeg">
                       
-                      </audio>
+                      </audio> -->
+                      <div id="questions">
+                          <h2 id="question-title"></h2>
+                          <div id ="choices" class="choices"></div>
+                      </div>
+                </div>
                 </div>
               </div>
+       
             
 
-            <!--changed my mind how i wanted the front page to look.-->
-            <!-- <div class="wrapper">
-                <div id="start-screen" class="start">
-                    <h1>Ultimate Pokemon Quiz!!</h1>
-                    <img src="./images/pokemon3.jpeg" alt="The 3 OG">
-                    <p>Lets test your Pokemon knowledge, this is only Gen 1. </p>
-                    <button id="start">Start your journey!</button>
-                </div> -->
+            
                 
-                <div id="questions" class="hide">
-                    <h2 id="question-title"></h2>
-                    <div id ="choices" class="choices"></div>
-                </div>
                 
                 <div id="results" class="hide">
                     <h2>All done!</h2>
                     <p>Your final score is <span id="total-score"></span>.</p>
                     <p>
                         Your initials here: <input type="text" id="initials" max="3" />
-                        <button id="submit">Submit</button>
+                        <button id="submit"><a href ="HallofFame.html"></a> Submit</button>
                     </p>
                 </div>
-                <div id="feedback" class="feedback hide"></div>
+
+<!--                 
+                <div id="feedback" class="feedback hide"></div> -->
                 
             </div>
             
-            <!-- <footer class="music">
-              </footer> -->
+          
 
 
 
 
 
-
+<script src="./js2.js"></script>
 <script src="./js.js"></script>
         </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

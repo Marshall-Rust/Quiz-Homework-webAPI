@@ -1,5 +1,6 @@
 * {
     font-family: 'Pokemon Solid', sans-serif;
+    
 }
 .scores {
     
@@ -22,6 +23,14 @@
     height: 21px;
     width: 130px;
 }
+#start {
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+/* 
+.hide {
+    display: none;
+} */
 /* 
 #hofPhoto {
    
@@ -52,6 +61,7 @@ body, html {
   background-repeat: no-repeat;
   /* background-size: cover; */
   position: relative;
+  
 }
 
 /* Place text in the middle of the image */
@@ -62,4 +72,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: yellow;
+  font-size: 20px;
+  text-shadow: 3px 3px blue;
+  
 }
