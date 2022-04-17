@@ -6,4 +6,19 @@ Got the timer to work. questions to work. score page. couldnt get the score to t
 
 /Users/marshall/bootcamp/Quiz-Homework-webAPI/screenshots/Screen Shot 2022-04-16 at 5.01.40 PM.png
 
-![Alt text](/Users/marshall/bootcamp/Quiz-Homework-webAPI/screenshots/Screen Shot 2022-04-16 at 5.01.40 PM.png)
+[Alt text](/Users/marshall/bootcamp/Quiz-Homework-webAPI/screenshots/Screen Shot 2022-04-16 at 5.01.40 PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%205.01.40%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%205.12.32%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.46.57%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.47.02%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.47.07%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.47.16%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.48.10%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.48.19%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.48.22%20PM.png)
+![Alt text](./screenshots/Screen%20Shot%202022-04-16%20at%208.48.24%20PM.png)
+
+
+https://github.com/Marshall-Rust/Quiz-Homework-webAPI
+
+https://marshall-rust.github.io/Quiz-Homework-webAPI/
